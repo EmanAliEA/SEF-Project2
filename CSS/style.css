@@ -326,7 +326,7 @@ main {
   /* grid-template-rows: repeat(2, 2fr); */
   grid-template-columns: repeat(3, 1fr);
   column-gap: 2%;
-  row-gap: 6rem;
+  row-gap: 1gurem;
 }
 
 .item {
