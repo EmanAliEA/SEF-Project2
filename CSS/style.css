@@ -1,5 +1,4 @@
 header {
-  /* background-color: aqua; */
   display: flex;
   gap: 5rem;
   width: 80%;
@@ -10,7 +9,6 @@ header {
   position: relative;
 }
 .nav-list {
-  /* background-color: bisque; */
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -33,7 +31,6 @@ header {
   left: 0;
   padding: 1rem 1.3rem;
   margin: -1.5rem;
-  /* border: 2px solid black; */
   border-right: 2px solid black;
   border-left: 2px solid black;
   visibility: hidden;
@@ -61,11 +58,9 @@ header {
 .nav-list > li:hover::after {
   visibility: visible;
   width: 102.9%;
-  /* background-color: antiquewhite; */
 }
 .nav-icons {
   display: flex;
-  /* justify-content: center; */
   gap: 0.5rem;
 }
 .nav-icons i {
@@ -96,7 +91,6 @@ header {
   gap: 5rem;
   left: -19%;
   z-index: 2;
-  /* visibility: hidden; */
   transition: transform 0.9s;
   transform: scale(0);
 }
@@ -124,7 +118,6 @@ main {
   width: 80%;
   flex-basis: 80%;
   background: -webkit-linear-gradient(left, rgb(75, 54, 3), rgb(194, 158, 68));
-  /* background-color: beige; */
 }
 
 .main-container {
@@ -170,7 +163,6 @@ main {
 .products {
   display: flex;
   width: 100%;
-  /* background-color: rgb(91, 133, 247); */
 }
 .product {
   position: relative;
@@ -180,7 +172,6 @@ main {
   height: 40rem;
   font-size: 2rem;
   text-transform: capitalize;
-  /* background-color: antiquewhite; */
 }
 .product img {
   width: 100%;
@@ -250,7 +241,6 @@ main {
   width: 5rem;
 }
 .discount {
-  /* background-color: rgb(218, 204, 186); */
   flex-basis: 25%;
   font-size: 2rem;
   padding: 2rem;
@@ -323,16 +313,14 @@ main {
 .items {
   width: 100%;
   display: grid;
-  /* grid-template-rows: repeat(2, 2fr); */
   grid-template-columns: repeat(3, 1fr);
   column-gap: 2%;
-  row-gap: 1gurem;
+  row-gap: 1rem;
 }
 
 .item {
   position: relative;
   transform-style: preserve-3d;
-  /* background-color: antiquewhite; */
   width: 90%;
   height: 60rem;
   display: flex;
