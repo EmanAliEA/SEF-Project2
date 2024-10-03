@@ -6,7 +6,7 @@ header {
   justify-content: space-around;
   align-items: center;
   padding: 5rem 0;
-  font-size: 2.5rem;
+  font-size: 2.1rem;
   position: relative;
 }
 .nav-list {
@@ -90,11 +90,11 @@ header {
   border: 2px solid black;
   background-color: white;
   display: flex;
-  top: 170%;
+  top: 178%;
   padding: 2.5rem 4rem;
   font-size: 25px;
   gap: 5rem;
-  left: -17%;
+  left: -19%;
   z-index: 2;
   /* visibility: hidden; */
   transition: transform 0.9s;
